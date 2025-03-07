@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Hero Section -->
+<div class="container-fluid text-white py-5 mb-4" style="background: linear-gradient(135deg, #2d3748, #1a202c);">
+    <div class="container text-center">
+        <h1 class="display-3 fw-bold mb-3">
+            <i class="bi bi-terminal me-2"></i> Task Manager
+        </h1>
+        <p class="lead mb-4 text-muted">Streamline your workflow with precision.</p>
+        <a href="/Tasks" class="btn btn-teal btn-lg shadow-sm">
+            <i class="bi bi-code-slash me-1"></i> Start Managing
+        </a>
+    </div>
+</div>
+
+<!-- Features Section -->
+<div class="container py-5">
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 bg-dark text-white border-0 shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-clock-history display-4 text-teal mb-3"></i>
+                    <h5 class="card-title fw-bold">Track Deadlines</h5>
+                    <p class="card-text text-muted">Set and manage due dates effortlessly.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 bg-dark text-white border-0 shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-sort-alpha-down display-4 text-teal mb-3"></i>
+                    <h5 class="card-title fw-bold">Prioritize Work</h5>
+                    <p class="card-text text-muted">Sort tasks by importance, dev-style.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 bg-dark text-white border-0 shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-table display-4 text-teal mb-3"></i>
+                    <h5 class="card-title fw-bold">Data-Driven View</h5>
+                    <p class="card-text text-muted">Interactive tables for power users.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Call-to-Action Section -->
+<div class="container-fluid py-4" style="background-color: #1a202c;">
+    <div class="container text-center">
+        <h3 class="mb-3 text-white">Code your productivity.</h3>
+        <a href="/Tasks" class="btn btn-teal btn-lg">
+            <i class="bi bi-arrow-right-circle me-1"></i> Dive In
+        </a>
+    </div>
+</div>
+
+<!-- Custom CSS -->
+<style>
+    body {
+        background-color: #edf2f7; /* Light gray for contrast with dark sections */
+    }
+
+    .btn-teal {
+        background-color: #319795; /* Muted teal */
+        border-color: #319795;
+        color: #ffffff;
+    }
+
+        .btn-teal:hover {
+            background-color: #2c8785;
+            border-color: #2c8785;
+            color: #ffffff;
+        }
+
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+        }
+
+    .text-muted {
+        color: #a0aec0 !important; /* Softer gray for secondary text */
+    }
+</style>
